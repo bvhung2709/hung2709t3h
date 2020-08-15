@@ -1,4 +1,4 @@
-.container{
+.buihung{
   width: 100%; 
   height: 100%; 
   background-color: #f5f5dd;
@@ -7,59 +7,56 @@
 
 }
 form{
-  width: 800px;
-  height: 310px; 
+  width: 50%;
   padding: 10px;  
-  line-height: 28px;
+  line-height: 30px;
   background-color: #fff; 
   margin: 120px auto;
   opacity: 0.7;
 }
-.col-6{
+.name{
   float: left;
   width: 50%;
 }
-.col-4{
+.puma1{
   float: left;
   width: 30%;
 }
-.col-2{
+.puma2{
   float: left;
   width: 20%;
 }
-input{
-  height: 22px;
-  border-radius: 3px;
-  border: 1px solid rgb(221, 217, 217);
-}
-.input-email,.input-password,.input-city{
+.email,.password,.city{
   width: 95%;
 }
-.input-address{
+.diachi{
   width: 97.5%;
 }
-.input-zip{
+.zip1{
   width: 87%;
 }
 select{
   width: 95%;
   height: 24px;
   border-radius: 3px;
-  border: 1px solid rgb(221, 217, 217);
+  background-color: hotpink;
 }
-.input-checkbox{
-  display: inline-flex;
+.hihi{
+  color: hotpink;
 }
-/* submit */
-.submit2{
-  color: #fff;
-  text-decoration: none;
-}
-.buttom-submit2{
-  border: 1px solid #0079fa;
-  width: 80px;
+.dangnhap{
+  width: 100px;
   height: 30px;
   text-align: center;
-  background-color: #0079fa;
-  border-radius: 3px;
+  background-color: blue;
+  cursor: pointer;
+  border-radius: 5px;
 } 
+.hungbui{
+  color: white;
+}
+body {
+  font-size: 18px;
+  font-weight: bold;
+  color:green;
+}

@@ -18,32 +18,29 @@ li a{
 li a:hover{
   background-color: #111;
 }
-.active {
+.home {
   background-color: #4CAF50;
 }
-.contenair{
+.buihung{
   width: 70%;
   margin: 0 15%;
 }
-.menu-2{
+.menu{
   background-color: #2a3d51;
+  font-family: "Times New Roman", Times, serif;
 }
-#menu-logo{
+.puma{
   text-transform: uppercase;
   font-weight: bold;
-  margin-left: 20px;
+  margin-left: 20px auto;
 }
-.menu2-li{
+.puma-li{
   float: right;
   text-transform: uppercase;
   font-size: small;
 }
-.active2{
-  background-color: #19232f;
-}
-h2 p{
-
-  border-bottom: 2px solid gray;
+h1 p{
+  border-bottom: 1px solid palevioletred;
   color:red;
   padding-bottom: 10px;
   text-align: center;
@@ -57,6 +54,8 @@ input{
   height: 40px;
   opacity: 0.5;
   text-align: center;
+  border-color: rgb(0, 255, 42);
+  
 } 
 body{
   background-image: url(https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/82391325_940062109766526_7115876961037058048_n.jpg?_nc_cat=111&_nc_sid=7aed08&_nc_ohc=7DYSYVilUQMAX8BesDu&_nc_ht=scontent.fhan5-3.fna&oh=6afc593e15907d7ba86cbf3affd3fac8&oe=5F59E124);
