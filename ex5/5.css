@@ -1,0 +1,657 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Cambria;
+  list-style-type: none;
+}
+
+.one{
+  width: 1200px;
+  margin: 0px auto;
+  display: flex;
+  height: 40px;
+  border-bottom: 1px solid #c0c0c0 ;
+  color: #313131;
+}
+.one .email{
+  display: flex;
+  line-height: 40px;
+}
+.one .email p{
+  padding: 0px 10px;
+}
+.one .email p:first-child{
+  padding-left: 0px;
+}
+.one .user {
+  display: flex;
+  line-height: 40px;
+  margin-left: 416px;
+}
+.one .user p{
+  padding: 0px 10px;
+}
+.one .user p:last-child{
+  padding-right: 0px;
+}
+#place{
+  line-height: 40px;
+  font-size: 14px;
+  vertical-align:bottom;
+}
+#diadiem{
+  line-height: 40px;
+  font-size: 17px;
+  vertical-align: bottom;
+}
+#dangnhap, #dangky{
+  line-height: 40px;
+  font-size: 16px;
+  vertical-align: bottom;
+  margin-right: 5px;
+}
+#dangky{
+  font-size: 10px;
+}
+
+.two{
+  display: flex;
+  width: 1200px;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+.two a img{
+  height: 75px;
+  width: 250px;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+.two #danhmuc{
+  height: 35px;
+  width: 160px;
+  margin-top: 25px;
+  margin-left: 60px;
+  border: 1px solid #c0c0c0;
+  border-right: none;
+  padding-left: 10px;
+  color:#8f8f8f;;
+  line-height: 35px;
+}
+.two #danhmuc span{
+  margin-left: 50px;
+  color:#8f8f8f;
+  font-size: 12px;
+}
+.two #danhmuc #danhmuc_con{
+  position: absolute;
+  display: none;
+  z-index: -1;
+  background-color: #c0c0c0;
+  width: 162px;
+  padding-left: 10px;
+  left:415px;
+}
+.two #danhmuc:hover #danhmuc_con{
+  display: block;
+  z-index: 1;
+}
+.two #danhmuc #danhmuc_con a:hover{
+  color: #0000ff;
+}
+.two #searchbar{
+  height: 35px;
+  margin-top: 25px;
+  border: 1px solid #c0c0c0;
+  border-right: none;
+  padding-left: 5px;
+  width: 250px;
+  color: #292929;
+  outline: none;
+}
+.two #timkiem{
+  margin-top:25px;
+  height: 37px;
+  border: 1px solid #00005b;
+  padding: 0 15px;
+  background-color:#00005b;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+.two #timkiem:hover{
+  background-color: #00009b;
+}
+
+.two a #shopping{
+  margin-top: 25px;
+  margin-left: 60px;
+  background-color: #d8d8d8;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.two a #shopping:hover{
+  background-color: #8f8f8f;
+}
+.two #numbersp{
+  width: 25px;
+  height: 25px;
+  background-color:red;
+  color: #fff;
+  border-radius: 25px;
+  border: none;
+  line-height: 25px;
+  text-align: center;
+  margin-left: -18px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.two #hline{
+  margin-top: 25px;
+  margin-left: 60px;
+}
+.two #hline p:first-child{
+  font-size: 16px;
+  color: #00005b;
+  font-weight: bold;
+}
+.two #hline p:last-child{
+  font-size: 21px;
+  color:#590000;
+  font-weight: bolder;
+}
+.three{
+  height: 55px;
+  background-color: #d4d4d4;
+  margin-top: -2px;
+  margin-bottom: 40px;
+}
+.three ul{
+  display: flex;
+  line-height: 55px;
+}
+.three>ul>li{
+  padding: 0px 20px;
+  height: 55px;
+}
+.dthreeiv3>ul>li:hover{
+  background-color:#efefef;
+}
+.three ul li a i{
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.three>ul>li:first-child{
+  margin-left: 75px;
+  background-color:#f8f8f8;
+  font-weight: bold;
+  height: 55px;
+  font-size: 20px;
+}
+.three ul li:first-child i{
+  margin-top: -8px;
+  margin-right: 15px;
+  font-size: 20px;
+}
+.three ul li:first-child a span{
+  margin-left: 45px;
+  color: #8f8f8f;
+  font-size: 12px;
+  vertical-align: bottom;
+}
+.three >ul >li:last-child{
+  margin-left: 18px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.three  ul li .xemthem {
+  display: none;
+  z-index: -1;
+  position: absolute;
+  padding: 0px 10px;
+  left: 65px;
+  top: 186px;
+
+}
+.xemthem li{
+  background-color:#f8f8f8;
+  font-weight: bold;
+  height: 55px;
+  font-size: 20px;
+  width: 234px;
+  padding: 0 20px;
+}
+.xemthem li a:hover{
+  color: #0000ff;
+}
+.three  ul li:hover ul.xemthem{
+  display: block;
+  z-index: 1;
+}
+
+.three ul li .trangchu{
+  position: absolute;
+  display: block;
+  width: 170px;
+  background-color: #c0c0c0;
+  line-height: 40px;
+  left:349px;
+  display: none;
+  z-index: -1;
+}
+.three ul li .trangchu li{
+  padding: 0 0 0 10px;
+}
+.three >ul >li >.trangchu >li:hover{
+  background-color: #8f8f8f;
+}
+.three>ul>li:hover>ul.trangchu{
+  display: block;
+  z-index: 1;
+}
+
+.three ul li .trangchu .sanpham{
+  position: absolute;
+  z-index: -1;
+  display: block;
+  line-height: 40px;
+  width: 170px;
+  left:170px;
+  top:41px;
+  background-color: #c0c0c0;
+  display: none;
+}
+.three >ul> li >.trangchu >li:hover >.sanpham{
+  display: block;
+  z-index: 1;
+}
+.sanpham li a:hover{
+  color: #00009b;
+}
+
+.three ul li .trangchu .tintuc{
+  position: absolute;
+  z-index: -1;
+  display: block;
+  line-height: 1.5;
+  width: 150px;
+  left:170px;
+  top:80px;
+  font-size: 16px;
+  background-color: #c0c0c0;
+  display: none;
+}
+.three >ul> li >.trangchu >li:hover >.tintuc{
+  display: block;
+  z-index: 1;
+}
+.tintuc li a:hover{
+  color: #00009b;
+}
+
+.three ul li .trangchu .tuyendung{
+  position: absolute;
+  z-index: -1;
+  display: block;
+  line-height: 40px;
+  width: 150px;
+  left:170px;
+  top:120px;
+  font-size: 16px;
+  background-color: #c0c0c0;
+  display: none;
+}
+.three >ul> li >.trangchu >li:hover >.tuyendung{
+  display: block;
+  z-index: 1;
+}
+.tuyendung li a:hover{
+  color: #00009b;
+}
+
+.three ul li .trangchu .lienhe{
+  position: absolute;
+  z-index: -1;
+  display: block;
+  line-height: 40px;
+  width: 150px;
+  left:170px;
+  top:160px;
+  font-size: 16px;
+  background-color: #c0c0c0;
+  display: none;
+}
+.three >ul> li >.trangchu >li:hover >.lienhe{
+  display: block;
+  z-index: 1;
+}
+.lienhe li a:hover{
+  color: #00009b;
+}
+
+
+.three ul li .phongkhach{
+  position: absolute;
+  display: block;
+  width: 170px;
+  background-color: #c0c0c0;
+  line-height: 40px;
+  left:463px;
+  display: none;
+  z-index: -1;
+}
+.three ul li .phongkhach li{
+  padding: 0 0 0 10px;
+}
+.three >ul >li >.phongkhach >li:hover{
+  background-color: #8f8f8f;
+}
+.three>ul>li:hover>ul.phongkhach{
+  display: block;
+  z-index: 1;
+}
+
+
+.three ul li .phongan{
+  position: absolute;
+  display: block;
+  width: 170px;
+  background-color: #c0c0c0;
+  line-height: 40px;
+  left:593px;
+  display: none;
+  z-index: -1;
+}
+.three ul li .phongan li{
+  padding: 0 0 0 10px;
+}
+.three >ul >li >.phongan >li:hover{
+  background-color: #8f8f8f;
+}
+.three>ul>li:hover>ul.phongan{
+  display: block;
+  z-index: 1;
+}
+
+.three ul li .phongngu{
+  position: absolute;
+  display: block;
+  width: 170px;
+  background-color: #c0c0c0;
+  line-height: 40px;
+  left:703px;
+  display: none;
+  z-index: -1;
+}
+.three ul li .phongngu li{
+  padding: 0 0 0 10px;
+}
+.three >ul >li >.phongngu >li:hover{
+  background-color: #8f8f8f;
+}
+.three>ul>li:hover>ul.phongngu{
+  display: block;
+  z-index: 1;
+}
+
+
+.for{
+  width: 1200px;
+  min-height: 400px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 30px;
+}
+.for .left{
+  width: 900px;
+  overflow: hidden;
+}
+.for .left .chuyen-slide img{
+  width: 900px;
+  height: 590px;
+  float: left;
+}
+
+.for .left .chuyen-slide{
+  width: 9999px;
+  transition: all 0.5s;
+}
+.for .left .dieuhuong button{
+  width: 30px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  background-color: #d8d8d8;
+  position: absolute;
+  z-index: 1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.for .left .dieuhuong button:first-child{
+  top:520px;
+  left:945px;
+}
+.for .left .dieuhuong button:last-child{
+  top:520px;
+}
+.for .left .chuyen-slide img:hover{
+  opacity: 0.7;
+}
+
+.for .right{
+  width:300px;
+  overflow: hidden;
+}
+
+.for .right a img{
+  width: 285px;
+  margin-left: 20px;
+  height: 188px;
+  margin-bottom: 10px;
+}
+.for .right a img:hover{
+  opacity: 0.7;
+}
+
+
+.five{
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.five a{
+  margin-right: 20px;
+}
+
+.five a:last-child{
+  margin-right: 0px;
+}
+.five a img{
+  width: 384px;
+  height: 250px;
+}
+.five a img:hover{
+  opacity: 0.7;
+}
+.six{
+  width: 1200px;
+  margin: 0 auto;
+}
+.six .top{
+  width: 1200px;
+  background-color:#efefef;
+  margin-bottom: 10px;
+  display: flex;
+  line-height: 1.8;
+}
+
+.six .top .hethong{
+  margin:10px 20px 10px 90px;
+  width: 278px;
+}   
+.six .top .longbien{
+  padding-left: 15px;
+  border-left: 1px solid #999999;
+  width: 330px;
+  margin: 34px 20px 10px 20px;
+}
+
+.six .top .mydinh{
+  border-left: 1px solid #999999;
+  padding-left: 15px;
+  width: 300px;
+  margin: 34px 0px 10px 20px;
+}
+
+.six .p1{
+  font-weight: bold;
+}
+
+
+.six .main{
+  width: 1200px;
+  background-color: #efefef;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+.six .main .main_top{
+  display: flex;
+}
+
+.six .main .main_top .thongtin{
+  margin-left: 90px;
+  margin-right: 60px;
+  width: 115px;
+} 
+
+.six .main .main_top .thongtin p{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 2;
+  margin-top: 20px;
+}
+.six .main .main_top .thongtin ul li a{
+  text-decoration: none;
+  color: black;
+  line-height: 2;
+}
+.six .main .main_top .thongtin ul li a:hover{
+  color: #0000ff;
+}
+.six .main .main_top .chinhsach{
+  margin-right: 60px;
+  width: 140px;
+} 
+
+.six .main .main_top .chinhsach p{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 2;
+  margin-top: 20px;
+}
+.six .main .main_top .chinhsach ul li a{
+  text-decoration: none;
+  color: black;
+  line-height: 2;
+}
+.six .main .main_top .chinhsach ul li a:hover{
+  color: #0000ff;
+}
+.six .main .main_top .tongdai{
+  margin-right: 100px;
+  width: 250px;
+} 
+.six .main .main_top .tongdai p{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 2;
+  margin-top: 20px;
+
+}
+.six .main .main_top .tongdai #icon{
+  margin-top: 0px;
+  line-height: 1.5;
+}
+
+.six .main .main_top .tongdai #icon i{
+  vertical-align: text-bottom;
+  font-size: 24px;
+}
+
+.six .main .main_top .tongdai #icon span{
+  color: red;
+  font-size: 20px;
+}
+.six .main .main_top .tongdai #bophan{
+  margin-top: 0px;
+}
+.six .main .main_top .tongdai .icon1{
+  margin-top: 0px;
+  line-height: 1.2;
+}
+.six .main .main_top .tongdai .icon1 i{
+  font-size: 15px;
+  margin-top: 6px;
+}
+.six .main .main_top .tongdai .icon1 span{
+  color: black;
+  font-size: 14px;
+  font-weight: normal;
+}
+.six .main .main_top .tongdai #online{
+  margin-top: 7px;
+  color: red;
+}
+
+.six .main .main_top .ketnoi p{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 2;
+  margin-top: 20px;
+}
+.six .main .main_top .ketnoi a{
+  color: black;
+}
+.six .main .main_top .ketnoi a i{
+  background-color: #fff;
+  width: 35px;
+  text-align: center;
+  padding:7px 0px;
+  margin-right: 10px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.six .main .main_top .ketnoi a i:hover{
+  background-color: #c0c0c0;
+}
+
+.six .main .main_top .ketnoi .logo #img1 {
+  margin-right: 80px;
+
+}
+.puma-hi{
+  border-top: 0.05px solid gainsboro;
+  width: 100%;
+  text-align: center;
+  padding: 5px 10px;
+}
+.puma-hihi{
+  display: inline;
+  border-right: 0.6px solid black ;
+  padding: 1px 10px;
+}
+.six .bottom{
+  text-align: center;
+  color: #c0c0c0;
+}
+.six .bottom strong{
+  color:#9f0050;
+}
