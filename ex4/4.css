@@ -1,7 +1,7 @@
 
 .hung{
     background-color: pink;
-    margin: 4px;
+  
   }
  .hung1{
     font-size: 30px;
@@ -105,5 +105,18 @@
     border-right: 0.6px solid black ;
     padding: 1px 10px;
   }
+  .footer-license{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    padding-top: 15px
+}
+.footer-license span{
+    color: red;
+    font-weight: 700;
+}
 
   
