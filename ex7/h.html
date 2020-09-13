@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/ex7/h.js" type="text/css" />
+  <title>BuiHungJS</title>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>My First JavaScript</h2>
+  <button type="button" onclick="displaytable()">
+    List
+  </button>
+
+  <button type="button" onclick="ordertable()">
+    Order
+  </button>
+
+  <button onclick="thongke()">Thống kê</button>
+
+  <button type="button" value="Open Buihung" onclick="input()">
+    Input
+  </button>
+
+  <button type="button" value="Open 'myWindow'" onclick="openWin()">
+    Open to FBBuihung
+  </button>
+
+  <button type="button" value="Close 'myWindow'" onclick="closeWin()">
+    Close to FBBuihung
+  </button>
+
+  <input type="text" placeholder="Tìm kiếm" id="search" onkeyup="timkiem()" />
+
+  <button onclick="reset()">Reset</button>
+  <p id="demo"></p>
+  <script type="text/javascript" src="/ex7/h.js"></script>
+</body>
+
+</html>
